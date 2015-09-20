@@ -1,5 +1,5 @@
 # OggTranscoder
-Basic ogg to WAVE transcoder. Intended to be used to play *.ogg files through AVAudioPlayer on OS X or iOS.
+Basic ogg to WAVE transcoder. Use it to play *.ogg files through AVAudioPlayer on OS X or iOS.
 
 ## Usage
 
