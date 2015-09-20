@@ -19,7 +19,7 @@ struct OggWav {
 };
 ```
 
-Here is sample code that loads an ogg file and plays it through AVAudioPlayer.
+Here is sample code that loads an ogg file and plays it through AVAudioPlayer. Note that your code must be written in **Objective-C++**. Rename your *.m file to *.mm to use the functions. To use it in Swift, I usually just construct a bridge (I write a wrapper function in Objective-C++, and import it in my bridging header).
 ```objective-c
 /* Load the source ogg file */
 NSMutableData *oggData = [[NSMutableData alloc] initWithContentsOfFile:@"Epoq-Lepidoptera.ogg"];
