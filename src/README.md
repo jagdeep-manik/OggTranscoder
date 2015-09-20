@@ -18,7 +18,7 @@ make install
 * Select **Framework & Library > Library** for OS X. 
 * Name the project **OggTranscoder**, select STL-C++, and make it Static.
 * Copy and paste the contents of this git's src files, or drag & drop them into your project.
-* Click on your project in the Project Navigator. Click on **Build Phases**. Link libvorbis.a to your project (it will probably be located under /usr/local/lib). To do this, click **Link Binary With Libraries**, click the + symbol, select **Add Other**, and find the library.
+* Click on your project in the Project Navigator. Click on **Build Phases**. Link libvorbisfile.a to your project (it will probably be located under /usr/local/lib). To do this, click **Link Binary With Libraries**, click the + symbol, select **Add Other**, and find the library.
 * Select **Build Settings**, located just left of Build Phases.
 * Look for **Search Paths**.
 * Under "Header Search Paths", add /usr/local/include (mark it as recursive)
